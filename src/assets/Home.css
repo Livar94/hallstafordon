@@ -1,0 +1,302 @@
+Home.css
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100vw;  
+    top: 0;
+    left: 0;
+    box-sizing: border-box; 
+  }
+  
+  
+  .logo-site {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffcc00;
+  }
+  
+  .logo-site:hover {
+    color: white;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #ffcc00;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .bilarilager-btn {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bilarilager-btn:hover {
+    background: linear-gradient(135deg, #ff9900, #ff6600);
+    color: black; 
+    transform: scale(1.05);
+  }
+
+  .contact-info {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-info h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    font-size: 18px;
+    color: #555;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-info li:hover {
+    background-color: #ffcc00;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info {
+      padding: 20px;
+    }
+  
+    .contact-info h2 {
+      font-size: 28px;
+    }
+  
+    .contact-info li {
+      font-size: 16px;
+    }
+  }
+  
+  .map-container {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .map-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  iframe {
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-info a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+  .contact-info a:hover {
+    color: white; 
+  }
+
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .logo-site {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      gap: 10px;
+      font-size: 16px;
+    }
+  
+    .hero-text h1 {
+      font-size: 28px;
+    }
+  
+    .hero-text p {
+      font-size: 16px;
+    }
+  
+    .bilarilager-btn {
+      padding: 12px 24px;
+      font-size: 18px;
+    }
+  
+    .contact-info h2 {
+      font-size: 20px;
+    }
+  
+    .contact-info li {
+      font-size: 16px;
+    }
+  
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  /* Extra mobilanpassning för mindre skärmar */
+  @media (max-width: 480px) {
+    .hero-text h1 {
+      font-size: 24px;
+    }
+  
+    .hero-text p {
+      font-size: 14px;
+    }
+  
+    .bilarilager-btn {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .contact-info li {
+      font-size: 14px;
+    }
+  }
+  
+  .footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap; /* Gör att det anpassas på mindre skärmar */
+  }
+  
+  .footer p {
+    margin: 5px 15px;
+    font-size: 16px;
+    
+  }
+  
+  .footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: white;
+  }
+
+  .ad-tel-ep-op{
+    padding-top: 1em;
+  }
+  
+  /* Anpassning för mobil */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  
+  
+  
