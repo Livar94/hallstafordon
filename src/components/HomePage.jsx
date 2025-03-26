@@ -25,6 +25,22 @@ const HomePage = () => {
         </a>
       </div>
 
+      <div className="welcome-to-hf">
+        <h1>Välkommen till Hallsta Fordon</h1>
+        <h3>Kvalitetsbilar till rätt pris</h3>
+        <p>
+          Hallsta Fordon är en oberoende bilhandlare med fokus på försäljning, inköp, inbyten och förmedling av bilar.
+
+          Vi drivs av ett genuint bilintresse, gedigen erfarenhet och djup kunskap inom branschen – allt för att ditt bilköp ska bli både tryggt och smidigt.
+
+          Med flera års erfarenhet och tusentals sålda bilar i bagaget kan du känna dig helt säker när du gör affär med oss.
+
+          Vår ambition är att varje kund ska få en förstklassig upplevelse – från första kontakt till leverans av bilen.
+
+          Alla våra fordon är noggrant kontrollerade och leveransklara. Du är varmt välkommen att besöka oss för att se och provköra din nästa bil.
+        </p>
+      </div>
+
       <div className="contact-info">
         <h2>Kontakta oss</h2>
         <ul>
@@ -33,6 +49,12 @@ const HomePage = () => {
           <li><strong>Adress:</strong> <br /><a href="https://www.google.com/maps?q=Brinkvägen+2,+734+30+Hallstahammar" target="_blank" rel="noopener noreferrer">Brinkvägen 2, 734 30 Hallstahammar</a></li>
           <li><strong>Öppettider: <br /> </strong> Måndag-Fredag: 10:00 - 18:00<br /> Lördag: 11:00 - 15:00</li>
         </ul>
+        <h3>
+          Önskar du en visning utanför våra ordinarie öppettider?
+        </h3>
+        <h5>
+          Tveka inte att kontakta oss på Hallsta Fordon <br /> Vi gör vårt bästa för att anpassa oss efter dina önskemål och hittar gärna en tid som passar dig.
+        </h5>
       </div>
 
       <div className="map-container">

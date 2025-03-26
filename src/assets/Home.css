@@ -63,7 +63,7 @@ body, html {
   
   .hero-text {
     position: absolute;
-    top: 25%;
+    top: 17%;
     left: 51%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -100,6 +100,62 @@ body, html {
     color: black; 
     transform: scale(1.05);
   }
+
+/* Welcome section styling */
+.welcome-to-hf {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 60px auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-to-hf h1 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.welcome-to-hf h3 {
+  font-size: 22px;
+  color: #FFD700;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.welcome-to-hf p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+  text-align: center;
+  white-space: pre-line;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .welcome-to-hf {
+    padding: 40px 15px;
+  }
+
+  .welcome-to-hf h1 {
+    font-size: 28px;
+  }
+
+  .welcome-to-hf h3 {
+    font-size: 18px;
+  }
+
+  .welcome-to-hf p {
+    font-size: 16px;
+  }
+}
 
   .contact-info {
     background-color: #f1f1f1;
@@ -147,6 +203,16 @@ body, html {
   .contact-info strong {
     font-weight: bold;
   }
+
+  .contact-info h3 {
+    color: #222;
+
+  }
+
+  .contact-info h5 {
+    color: #222;
+
+  }
   
   @media (max-width: 768px) {
     .contact-info {
@@ -161,6 +227,18 @@ body, html {
       font-size: 16px;
     }
   }
+
+  .contact-info h3 {
+    font-size: 24px;
+
+  }
+
+  .contact-info h5 {
+    font-size: 18px;
+
+  }
+
+
   
   .map-container {
     margin-top: 40px;

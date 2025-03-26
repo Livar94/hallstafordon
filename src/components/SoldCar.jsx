@@ -22,29 +22,30 @@ const SoldCar = () => {
       {/* Formulär */}
       <div className="car-sale-form">
         <h2>Vi köper din bil</h2>
-        <p>Fyll i formuläret så återkommer vi inom 24 h.</p>
-        <p>Vi köper alla bilar</p>
-        <form>
+        <p>Fyll i formuläret nedan – vi återkopplar inom 24 timmar.</p>
+        <p>Vi köper bilar i alla modeller och skick.</p>
+        <form action="https://formspree.io/f/movelzrn" method="POST">
           <label className="label-color">Namn</label>
-          <input type="text" placeholder="Ditt namn" required />
+          <input type="text" name="namn" required />
 
           <label className="label-color">E-post</label>
-          <input type="email" placeholder="Din e-post" required />
+          <input type="email" name="email" required />
 
           <label className="label-color">Telefonnummer</label>
-          <input type="number" placeholder="Ditt telefonnummer" required />
+          <input type="tel" name="telefon" required />
 
           <label className="label-color">Bilmodell</label>
-          <input type="text" placeholder="Bilmodell" required />
+          <input type="text" name="bilmodell" required />
 
           <label className="label-color">Registreringsnummer</label>
-          <input type="text" placeholder="Reg.nr" required />
+          <input type="text" name="regnummer" required />
 
           <label className="label-color">Beskrivning</label>
-          <textarea placeholder="Beskriv bilens skick" required></textarea>
+          <textarea name="beskrivning" required></textarea>
 
           <button type="submit" className="form-submit-btn">Skicka</button>
         </form>
+
       </div>
       {/* <div>
         <div>

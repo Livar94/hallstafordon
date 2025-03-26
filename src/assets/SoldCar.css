@@ -25,6 +25,7 @@ body {
     width: 100%;
     padding: 20px 40px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
 }
 
 .site-logo {
@@ -35,7 +36,13 @@ body {
 }
 .site-logo:hover {
     color: white;
-  }
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .site-nav a {
     color: #FFD700;
@@ -58,7 +65,7 @@ body {
 /* Form Styling */
 .car-sale-form {
     background-color: #ffffff3f;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     margin-top: -850px;
     padding: 30px;
@@ -87,7 +94,7 @@ form label {
     font-weight: bold;
 }
 
-.label-color{
+.label-color {
     color: #FFFFFF;
 }
 
@@ -136,10 +143,8 @@ form textarea {
 .footer-details {
     display: flex;
     justify-content: space-around;
-    
     flex-wrap: wrap;
     max-width: 1200px;
-    
     margin: auto;
 }
 
@@ -156,7 +161,41 @@ form textarea {
     color: #FFFFFF;
 }
 
-.contact-info{
+.contact-info {
     background-color: inherit;
 }
 
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .site-nav {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .site-nav a {
+        margin: 10px 0;
+    }
+
+    .hero-banner {
+        height: 100vh;
+    }
+
+    .car-sale-form {
+        margin-top: -850px;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .footer-details {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+}
