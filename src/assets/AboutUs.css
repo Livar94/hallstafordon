@@ -1,0 +1,93 @@
+.about-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 150px auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .about-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  .circle-left {
+    background-color: #fbbf24; /* gul */
+    top: 35%;
+    left: 380px;
+    transform: translateY(-50%);
+  }
+  
+  .circle-right {
+    background-color: #fb923c; /* orange */
+    top: 65%;
+    right: 380px;
+    transform: translateY(-50%);
+  }
+
+
+  /* 🔻 MOBILANPASSNING */
+@media (max-width: 768px) {
+    .about-wrapper{
+        margin-top: 200px;
+    }
+    .logo-site {
+        text-align: center;
+      }
+
+      .nav-menu {
+        text-align: center;
+      }
+    .circle {
+      display: none;
+    }
+  
+    .about-section {
+      padding: 40px 16px;
+    }
+  
+    .about-title {
+      font-size: 1.5rem;
+    }
+  
+    .about-subtitle {
+      font-size: 1rem;
+    }
+  
+    .about-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }

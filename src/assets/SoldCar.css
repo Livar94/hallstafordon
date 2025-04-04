@@ -58,7 +58,7 @@ body {
 /* Hero Image */
 .hero-banner {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     object-fit: cover;
 }
 
@@ -67,7 +67,7 @@ body {
     background-color: #ffffff3f;
     width: 90%;
     max-width: 600px;
-    margin-top: -850px;
+    margin-top: -900px;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.788);
@@ -133,7 +133,7 @@ form textarea {
 /* Footer */
 .site-footer {
     background-color: #222;
-    color: #FFD700;
+    color: #fff;
     text-align: center;
     width: 100%;
     padding: 40px 0;
@@ -165,18 +165,44 @@ form textarea {
     background-color: inherit;
 }
 
+.map-wrapper {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff00;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .map-wrapper h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .map-frame {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .site-header {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
+        align-items: center;
+        padding: 30px;
     }
+    
 
     .site-nav {
         flex-direction: column;
+        align-items: center;
         width: 100%;
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     .site-nav a {
@@ -184,11 +210,11 @@ form textarea {
     }
 
     .hero-banner {
-        height: 100vh;
+        height: 120vh;
     }
 
     .car-sale-form {
-        margin-top: -850px;
+        margin-top: -890px;
         width: 90%;
         padding: 20px;
     }
