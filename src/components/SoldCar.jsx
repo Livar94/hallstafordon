@@ -24,7 +24,7 @@ const SoldCar = () => {
         <h2>Vi köper din bil</h2>
         <p>Fyll i formuläret nedan – vi återkopplar inom 24 timmar.</p>
         <p>Vi köper bilar i alla modeller och skick.</p>
-        <form action="https://formspree.io/f/movelzrn" method="POST">
+        <form action="https://formspree.io/f/xblgqwdq" method="POST">
           <label className="label-color">Namn</label>
           <input type="text" name="namn" required placeholder="Namn"/>
 
@@ -91,7 +91,7 @@ const SoldCar = () => {
       <footer className="site-footer">
         <div className="footer-details">
           <p><strong>Adress</strong><br /> <p className="contact-info"><a href="https://www.google.com/maps?q=Brinkvägen+2,+734+30+Hallstahammar"  target="_blank" rel="noopener noreferrer">Brinkvägen 2, 734 30 Hallstahammar</a></p></p>
-          <p><strong>Telefon</strong><br /> <p className="contact-info"><a href="tel:0123456789" >0123-456 789</a></p></p>
+          <p><strong>Telefon</strong><br /> <p className="contact-info"><a href="tel:0123456789" >021-4400011</a></p></p>
           <p><strong>E-post</strong><br /> <p className="contact-info"><a href="mailto:info@hallstafordon.se" >info@hallstafordon.se</a></p></p>
           <p><strong>Öppettider<br /> </strong> <p className="contact-info">Mån-Fre: 10:00 - 18:00 <br /> Lör: 11:00 - 15:00</p></p>
         </div>
