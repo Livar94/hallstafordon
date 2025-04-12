@@ -41,7 +41,7 @@ const AboutUs = () => {
         <footer className="footer">
         <div className="footer-content">
           <p><strong>Adress</strong><br /> <p className="ad-tel-ep-op"><a href="https://www.google.com/maps?q=Brinkvägen+2,+734+30+Hallstahammar"  target="_blank" rel="noopener noreferrer">Brinkvägen 2, 734 30 Hallstahammar</a></p></p>
-          <p><strong>Telefon</strong><br /> <p className="ad-tel-ep-op"><a href="tel:0123456789" >021-4400011</a></p></p>
+          <p><strong>Telefon</strong><br /> <p className="ad-tel-ep-op"><a href="tel:0214400011" >021-4400011</a></p></p>
           <p><strong>E-post</strong><br /> <p className="ad-tel-ep-op"><a href="mailto:info@hallstafordon.se" >info@hallstafordon.se</a></p></p>
           <p><strong>Öppettider<br /> </strong> <p className="ad-tel-ep-op">Mån-Fre: 10:00 - 18:00 <br /> Lör: 11:00 - 15:00</p></p>
         </div>

@@ -59,7 +59,7 @@ const SoldCar = () => {
 <div className="contact-info">
         <h2>Kontakta oss</h2>
         <ul>
-          <li><strong>Telefonnummer:</strong><br /> <a href="tel:0123456789">021-4400011</a></li>
+          <li><strong>Telefonnummer:</strong><br /> <a href="tel:0214400011">021-4400011</a></li>
           <li><strong>E-post:</strong><br /> <a href="mailto:info@hallstafordon.se">info@hallstafordon.se</a></li>
           <li><strong>Adress:</strong> <br /><a href="https://www.google.com/maps?q=Brinkvägen+2,+734+30+Hallstahammar" target="_blank" rel="noopener noreferrer">Brinkvägen 2, 734 30 Hallstahammar</a></li>
           <li><strong>Öppettider: <br /> </strong> Måndag-Fredag: 10:00 - 18:00<br /> Lördag: 11:00 - 15:00</li>
@@ -91,7 +91,7 @@ const SoldCar = () => {
       <footer className="site-footer">
         <div className="footer-details">
           <p><strong>Adress</strong><br /> <p className="contact-info"><a href="https://www.google.com/maps?q=Brinkvägen+2,+734+30+Hallstahammar"  target="_blank" rel="noopener noreferrer">Brinkvägen 2, 734 30 Hallstahammar</a></p></p>
-          <p><strong>Telefon</strong><br /> <p className="contact-info"><a href="tel:0123456789" >021-4400011</a></p></p>
+          <p><strong>Telefon</strong><br /> <p className="contact-info"><a href="tel:0214400011" >021-4400011</a></p></p>
           <p><strong>E-post</strong><br /> <p className="contact-info"><a href="mailto:info@hallstafordon.se" >info@hallstafordon.se</a></p></p>
           <p><strong>Öppettider<br /> </strong> <p className="contact-info">Mån-Fre: 10:00 - 18:00 <br /> Lör: 11:00 - 15:00</p></p>
         </div>
