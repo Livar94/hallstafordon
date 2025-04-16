@@ -9,7 +9,7 @@ const HomePage = () => {
         <Link to="/" className="logo-site">Hallsta Fordon</Link>
         <nav className="nav-menu">
           <Link to="/">Hem</Link>
-          <a href="https://www.blocket.se/">Bilar i lager</a>
+          <a href="https://www.blocket.se/butik/hallsta-fordon">Bilar i lager</a>
 
           {/* <Link to="">Bilar i lager</Link> */}
           <Link to="/salj">Sälj din bil</Link>
@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className="hero-text">
         <h1>Välkommen till Hallstafordon</h1>
         <p>Vi erbjuder kvalitetsbilar till bästa pris. Utforska vårt sortiment idag!</p>
-        <a href="https://www.blocket.se/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.blocket.se/butik/hallsta-fordon" target="_blank" rel="noopener noreferrer">
           <button className="bilarilager-btn">Bilar i lager</button>
         </a>
       </div>

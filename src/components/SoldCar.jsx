@@ -10,7 +10,7 @@ const SoldCar = () => {
         <Link to="/" className="site-logo">Hallsta Fordon</Link>
         <nav className="site-nav">
           <Link to="/">Hem</Link>
-          <a href="https://www.blocket.se/">Bilar i lager</a>
+          <a href="https://www.blocket.se/butik/hallsta-fordon">Bilar i lager</a>
           <Link to="/salj">Sälj din bil</Link>
           <Link to="/om">Om oss</Link>
         </nav>
