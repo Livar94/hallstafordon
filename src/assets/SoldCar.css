@@ -8,6 +8,10 @@ body {
     background-color: #f0f2f5;
     color: #333;
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .soldcar-page {
     display: flex;
@@ -217,6 +221,7 @@ form textarea {
         margin-top: -890px;
         width: 90%;
         padding: 20px;
+        
     }
 
     .footer-details {
