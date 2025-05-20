@@ -1,6 +1,10 @@
 import "../assets/Home.css";
 import { Link } from "react-router-dom";
 import Zaldo from "../photos/img3.jpg";
+import img9 from '../photos/img9.png';
+import img10 from '../photos/img10.png';
+import img11 from '../photos/img11.png';
+import img12 from '../photos/img12.jpeg';
 
 const HomePage = () => {
   return (
@@ -55,6 +59,16 @@ const HomePage = () => {
         <h5>
           Tveka inte att kontakta oss på Hallsta Fordon <br /> Vi gör vårt bästa för att anpassa oss efter dina önskemål och hittar gärna en tid som passar dig.
         </h5>
+      </div>
+
+      <div className="sam-arbets-partner">
+        <h1>Samarbetspartner</h1>
+        <div className="partner-logos">
+          <img src={img9} alt="MyMoneyPay" />
+          <img src={img10} alt="ICA Försäkring" />
+          <img src={img11} alt="MoneyGo" />
+          <img src={img12} alt="Fragus Group" />
+        </div>
       </div>
 
       <div className="map-container">
